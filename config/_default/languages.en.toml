@@ -1,0 +1,20 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Vivian Leung"
+copyright = ""
+
+dateFormat = "January 02, 2006"
+
+[author]
+  name = "Vivian Leung"
+  image = "../assets/profile/VYL.jpg"
+  links = [
+    { email = "mailto:leung.vyz@gmail.com" },
+    { github = "https://github.com/vyleung" },
+    { twitter = "https://twitter.com/leungvyz" }
+  ]

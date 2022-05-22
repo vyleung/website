@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+    let heading_list = [];
+    let h;
+
+    setTimeout(() => {
+        heading_list.push(Array.from(document.querySelectorAll("h1.relative")), Array.from(document.querySelectorAll("h2.relative")), Array.from(document.querySelectorAll("h3.relative")), Array.from(document.querySelectorAll("h4.relative")))
+    }, 25);
+    setTimeout(() => {
+        heading_list.forEach(headings => {
+            headings.forEach(heading => {
+                if (heading.id != "") {
+                    heading.addEventListener("mouseover", function (e) {
+                        if (document.querySelector(`a[href='#${e.target.id}']`) != null) {
+                            document.querySelector(`a[href='#${e.target.id}']`).style.color = "rgba(var(--color-primary-500))";
+                        }
+                    });
+
+                    heading.addEventListener("mouseleave", function (e) {
+                        if (document.querySelector(`a[href='#${e.target.id}']`) != null) {
+                            document.querySelector(`a[href='#${e.target.id}']`).style.color = "rgba(var(--tw-prose-links))";
+                        }
+                    });
+                }
+            });
+        });
+    }, 100);
+</script>

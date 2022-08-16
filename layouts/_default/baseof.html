@@ -29,7 +29,7 @@
     <div class="relative">
       <main id="main-content" class="grow">
         {{- block "main" . }}{{- end }}
-        {{ if and (.Site.Params.showScrollToTop | default true) (gt .WordCount 50) }}
+        {{ if and (.Site.Params.showScrollToTop | default true) (gt .WordCount 100) }}
           <div
             class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-0"
           >
@@ -47,7 +47,6 @@
       {{ if .Site.Params.enableSearch | default false }}
         {{- partial "search.html" . -}}
       {{ end }}
-      {{- partial "footer.html" . -}}
     </div>
   </body>
 </html>

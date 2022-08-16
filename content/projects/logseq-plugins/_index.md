@@ -1,6 +1,5 @@
 ---
 title: "Logseq plugins"
-showTableOfContents: false
 ---
 {{< row class="logseq-plugins-row" >}}
     {{< column class="icon" >}}
@@ -28,7 +27,7 @@ showTableOfContents: false
     {{< column class="info">}}
         <a class="external-link" href="https://github.com/vyleung/logseq-quick-add-plugin">Quick Add</a>
         <br>
-        Add or duplicate blocks using keyboard shortcuts
+        Add/duplicate blocks and insert current time w/ custom format using keyboard shortcuts
     {{< /column >}}
     {{< column class="icon">}}
         {{< figure default="true" class="logseq-plugin-icons" src="./tidy-blocks-icon.png" alt="Tidy Blocks" caption="![Downloads: Tidy Blocks](https://img.shields.io/github/downloads/vyleung/logseq-tidy-blocks-plugin/total?color=%23EBAF02)" >}}
@@ -36,7 +35,7 @@ showTableOfContents: false
     {{< column class="info">}}
         <a class="external-link" href="https://github.com/vyleung/logseq-tidy-blocks-plugin">Tidy Blocks</a>
         <br>
-        Remove extra whitespaces and line breaks to keep blocks nice and tidy 
+        Remove extra whitespace and line breaks to keep blocks nice and tidy 
     {{< /column >}}
 {{< /row >}}
 

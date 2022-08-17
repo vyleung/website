@@ -1,4 +1,0 @@
----
-title: "Blog"
-showTableOfContents: false
----

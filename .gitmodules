@@ -2,3 +2,7 @@
 	path = public
 	url = https://github.com/vyleung/vyleung.github.io.git
 	branch = main
+[submodule "themes/congo"]
+	path = themes/congo
+	url = https://github.com/jpanther/congo.git
+	branch = stable

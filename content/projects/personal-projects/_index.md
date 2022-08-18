@@ -18,12 +18,15 @@ View All Plugins
 <br>
 <br>
 <br>
+<br>
 
 ### FlowPomoTimer
 I created a timer called <a class="external-link" href="https://vyleung.github.io/FlowPomoTimer/">FlowPomoTimer</a> so that I can 1) keep track of how long I've been working on a task and 2) get notified at certain intervals so that I don't lose track of time.
 
 {{< figure default="true" class="center-image" src="FPT/FPT.png" alt="FlowPomoTimer" >}}
 
+<br>
+<br>
 <br>
 <br>
 
@@ -40,4 +43,3 @@ I modeled and animated 3D objects using <a class="external-link" href="https://w
         {{< figure default="true" class="blender" src="blender/tank.gif" alt="Battle Tank" >}}
     {{< /column >}}
 {{< /row >}}
-<br>

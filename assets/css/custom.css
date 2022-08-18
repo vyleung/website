@@ -88,12 +88,18 @@ header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
     left: -2rem;
 }
 /* centers footer text */
-/* footer { */
-    /* display: flex;
+footer {
+    display: flex;
     justify-content: center;
-    padding: 0 !important; */
-    /* margin-top: 8em; */
-/* } */
+    padding: 0 !important;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+/* footer - copyright */
+.copyright {
+    opacity: 0.75;
+    font-size: 0.65em !important;
+}
 /* when links are hovered, don't have a background */
 .prose :where(a):not(:where([class~="not-prose"] *)):hover {
     color: var(--tw-prose-links);

@@ -12,16 +12,16 @@ a, a:hover {
 a[href*="http"] {
     color: rgba(var(--color-primary-500), 1);
 }
-a[aria-label="Github"], a[aria-label="Twitter"] {
+a[aria-label="Github"], a[aria-label="Twitter"], a[aria-label="Linkedin"] {
     color: currentColor !important;
 }
-a[aria-label="Github"]:hover, a[aria-label="Twitter"]:hover {
+a[aria-label="Github"]:hover, a[aria-label="Twitter"]:hover, a[aria-label="Linkedin"]:hover {
     color: rgba(var(--color-primary-400),var(--tw-text-opacity)) !important;
 }
 a[href*="http"]:before {
     content: "↗ ";
 }
-a[role="button"]:before, a[aria-label="Github"]:before, a[aria-label="Twitter"]:before {
+a[role="button"]:before, a[aria-label="Github"]:before, a[aria-label="Twitter"]:before, a[aria-label="Linkedin"]:before {
     content: "";
 }
 section {
@@ -66,8 +66,8 @@ section.max-w-full, div.max-w-prose {
 }
 /* increase size of profile pic and add box shadow */
 .mb-2.rounded-full.w-36.h-36 {
-    width: 10em;
-    height: 10em;
+    width: 9em;
+    height: 9em;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 /* adds padding btw header and main content */

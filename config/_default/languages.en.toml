@@ -16,6 +16,6 @@ dateFormat = "January 02, 2006"
   links = [
     { email = "mailto:vyleung@upenn.edu" },
     { github = "https://github.com/vyleung" },
-    { linkedin = " www.linkedin.com/in/vyleung"},
+    { linkedin = "https://linkedin.com/in/vyleung"},
     { twitter = "https://twitter.com/leungvyz" }
   ]

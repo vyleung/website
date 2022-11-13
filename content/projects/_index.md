@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 ---
-[Research Projects](./research-projects)
+## [Research Projects](./research-projects)
 
-[Personal Projects](./personal-projects)
+<br>
+
+## [Personal Projects](./personal-projects)

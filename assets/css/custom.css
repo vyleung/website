@@ -9,11 +9,20 @@ a, a:hover {
     text-decoration-thickness: 2.5px !important;
 }
 /* add arrow for external links */
-a.external-link {
+a[href*="http"] {
     color: rgba(var(--color-primary-500), 1);
 }
-a.external-link:before {
+a[aria-label="Github"], a[aria-label="Twitter"] {
+    color: currentColor !important;
+}
+a[aria-label="Github"]:hover, a[aria-label="Twitter"]:hover {
+    color: rgba(var(--color-primary-400),var(--tw-text-opacity)) !important;
+}
+a[href*="http"]:before {
     content: "↗ ";
+}
+a[role="button"]:before, a[aria-label="Github"]:before, a[aria-label="Twitter"]:before {
+    content: "";
 }
 section {
     text-align: left;
@@ -78,6 +87,10 @@ header.sm\:py-10 {
 header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
     font-weight: 700;
     font-size: 2em;
+}
+/* added margin for h1 */
+h1.mt-0.text-4xl.font-extrabold {
+    margin-bottom: 0.5em;
 }
 /* increase spacing btw links on profile page */
 .flex.flex-wrap.text-neutral-400 > a {
@@ -176,7 +189,7 @@ details > .markdown-inner {
 }
 .prose :where(figcaption):not(:where([class~="not-prose"] *)) {
     opacity: 0.85;
-    font-size: 0.8em;
+    font-size: 0.875em;
 }
 /* rows + columns */
 .column {
@@ -220,7 +233,7 @@ details > .markdown-inner {
 }
 /* github downloads info for logseq plugins */
 .my-0.rounded-md {
-    margin-left: 1em;
+    margin-left: 1.25em;
 }
 /* tags (num) */
 span.text-base.text-neutral-400 {
@@ -273,4 +286,9 @@ a[href*="categories"].px-1.border::before {
 /* code block */
 .prose :where(pre code):not(:where([class~="not-prose"] *)) {
     background-color: transparent;
+}
+/* increase size of icons */
+.icon svg {
+    width: 1.15em;
+    height: 1.15em;
 }

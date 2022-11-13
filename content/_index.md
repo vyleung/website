@@ -1,7 +1,7 @@
 # About
 Hello! I'm Vivian.
 
-I'm an incoming master's student in the **Learning Sciences and Technologies** program at the University of Pennsylvania.
+I'm a master's student in the **Learning Sciences and Technologies** program at the University of Pennsylvania.
 
 Broadly, I'm interested in **applying research** from fields such as psychology and the learning sciences **to enhance the design and implementation of learning technologies, environments, and experiences.**
 

@@ -28,5 +28,5 @@ jobs:
         with:
           external_repository: vyleung/vyleung.github.io
           publish_branch: main
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{secrets.GH_TOKEN}}
           publish_dir: ./public

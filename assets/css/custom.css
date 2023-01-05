@@ -16,11 +16,12 @@ a, a:hover {
 }
 /* add arrow for external links */
 a[href*="http"] {
-    color: rgba(var(--color-primary-500), 1);
+    color: rgba(var(--color-primary-600), 1);
 }
-a[aria-label="Github"], a[aria-label="Twitter"], a[aria-label="Linkedin"] {
+a[aria-label="Email"], a[aria-label="Github"], a[aria-label="Twitter"], a[aria-label="Linkedin"] {
     color: currentColor !important;
 }
+a[aria-label="Email"]:hover,
 a[aria-label="Github"]:hover, a[aria-label="Twitter"]:hover, a[aria-label="Linkedin"]:hover {
     color: rgba(var(--color-primary-400),var(--tw-text-opacity)) !important;
 }
@@ -82,12 +83,13 @@ section.max-w-full, div.max-w-prose {
 }
 /* reduces margin for header and makes it sticky */
 header.sm\:py-10 {
-    /* position: sticky;
+    position: sticky;
     top: 0;
     z-index: 100;
-    background: inherit; */
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width: 100%;
+    background: inherit;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 /* reduce font size for header h1 text */
 header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
@@ -297,4 +299,13 @@ a[href*="categories"].px-1.border::before {
 .icon svg {
     width: 1.15em;
     height: 1.15em;
+}
+/* appearance switcher */
+#appearance-switcher {
+    margin-top: -0.725em;
+    color: var(--tw-prose-body);
+}
+/* hamburger menu */
+ul.px-6.py-6 {
+    margin-top: 0.75em;
 }

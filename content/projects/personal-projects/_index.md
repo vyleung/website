@@ -10,9 +10,9 @@ My plugin, [Helium](https://github.com/vyleung/logseq-helium-plugin), is feature
 {{< figure default="true" class="center-image" src="logseq-plugins/logseq-helium-homepage.png" alt="Helium on Logseq's homepage" >}}
 
 [Helium](https://github.com/vyleung/logseq-helium-plugin) has also been showcased by several Logseq community members:
-- [App n Tips' blog post titled "How to Use Logseq to Take Notes on YouTube Videos"](https://www.appsntips.com/learn/use-logseq-take-notes-youtube-videos/#use-logseq-helium-plugin-to-take-notes-on-youtube-videos)
-- [Productivity Toolsets' YouTube video titled "Logseq Helium Plugin for Easy Note-taking on YouTube videos"](https://www.youtube.com/watch?v=C88wssS5QCI)
-- [Tools on Tech's YouTube video titled "My top 5 Logseq Plugins for 2022"](https://www.youtube.com/watch?v=7yVdh7ITvz4&t=662s)
+- [App n Tips' blog post: "How to Use Logseq to Take Notes on YouTube Videos"](https://www.appsntips.com/learn/use-logseq-take-notes-youtube-videos/#use-logseq-helium-plugin-to-take-notes-on-youtube-videos)
+- [Productivity Toolsets' YouTube video: "Logseq Helium Plugin for Easy Note-taking on YouTube videos"](https://www.youtube.com/watch?v=C88wssS5QCI)
+- [Tools on Tech's YouTube video: "My top 5 Logseq Plugins for 2022"](https://www.youtube.com/watch?v=7yVdh7ITvz4&t=662s)
 
 <br>
 <br>

@@ -308,6 +308,7 @@ a[href*="categories"].px-1.border::before {
 #appearance-switcher {
     margin-top: -0.65em;
     color: var(--tw-prose-body);
+    display: none;
 }
 [dir="ltr"] .ltr\:mr-14 {
     margin-right: 0;

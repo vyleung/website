@@ -3,7 +3,7 @@ html {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Font Awesome 6 Free";
 }
 /* body */
-.px-6 {
+body {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
@@ -89,7 +89,7 @@ header.sm\:py-10 {
     width: 100%;
     background: inherit;
     padding-top: 0.75em;
-    padding-bottom: 0.75em;
+    padding-bottom: 0.25em;
 }
 /* reduce font size for header h1 text */
 header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
@@ -110,17 +110,17 @@ h1.mt-0.text-4xl.font-extrabold {
 }
 /* centers footer text */
 footer {
-    display: flex;
-    justify-content: center;
+    display: none;
+    /* justify-content: center;
     padding: 0 !important;
     margin-top: 5em;
-    margin-bottom: 1em;
+    margin-bottom: 1em; */
 }
 /* footer - copyright */
-.copyright {
+/* .copyright {
     opacity: 0.75;
     font-size: 0.65em !important;
-}
+} */
 /* when links are hovered, don't have a background */
 .prose :where(a):not(:where([class~="not-prose"] *)):hover {
     color: var(--tw-prose-links);
@@ -183,9 +183,9 @@ details > .markdown-inner {
     margin-bottom: 0;
 }
 /* back to top button background color */
-.bg-neutral\/50 {
+/* .bg-neutral\/50 {
     background-color: rgba(var(--color-neutral-200));
-}
+} */
 /* for images */
 .prose :where(figure):not(:where([class~="not-prose"] *)), .prose :where(img):not(:where([class~="not-prose"] *)) {
     margin-bottom: 0.5em;
@@ -302,7 +302,7 @@ a[href*="categories"].px-1.border::before {
 }
 /* appearance switcher */
 #appearance-switcher {
-    margin-top: -0.725em;
+    margin-top: -0.65em;
     color: var(--tw-prose-body);
 }
 /* hamburger menu */

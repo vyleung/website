@@ -4,7 +4,7 @@ title: "Research Projects"
 ## Formal Research Projects
 ### SharKubb
 **Jun 2021 - Aug 2021**  
-Sharkubb is one study of a series of studies from the [Gopnik Cognitive Development Lab](http://www.gopniklab.berkeley.edu/) at UC Berkeley investigating the developmental trajectory of 4-10 year olds' decision-making during play and goal-oriented situations.
+Sharkubb is one study of a series of studies from the [Cognitive Development Lab](http://www.gopniklab.berkeley.edu/) at UC Berkeley investigating the developmental trajectory of 4-10 year olds' decision-making during play and goal-oriented situations.
 
 {{< details "About the study" >}}
 {{< figure default="true" src="CDL/sharkubb.png" alt="SharKubb" caption="In the study, we played a game with children ages 4-10 years old called _Beach Bowling_. Children were presented with different aspects of the game (e.g. weight of the blocks) and were asked to decide how to adjust the aspects (e.g. all light, all heavy, or half light and half heavy blocks) in 2 situations (playing for fun or to win stickers).">}}

@@ -35,7 +35,7 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         {{ block "main" . }}{{ end }}
-        {{ if and (.Site.Params.footer.showScrollToTop | default true) (gt .WordCount 200) }}
+        {{ if and (.Site.Params.footer.showScrollToTop | default true) (gt .WordCount 125) }}
           <div
             class="pointer-events-none absolute top-[100vh] bottom-0 w-12 ltr:right-0 rtl:left-0"
           >

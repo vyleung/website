@@ -2,6 +2,12 @@
 html {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Font Awesome 6 Free";
 }
+/* body */
+.px-6 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
 /* for links */
 /* make underline thicker */
 a, a:hover {
@@ -46,7 +52,7 @@ section.max-w-full, div.max-w-prose {
 }
 /* edit h1 font-size and margin-bottom */
 .prose :where(h1):not(:where([class~="not-prose"] *)) {
-    font-size: 1.75em;
+    font-size: 1.85em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -86,7 +92,7 @@ header.sm\:py-10 {
 /* reduce font size for header h1 text */
 header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.75em;
 }
 /* added margin for h1 */
 h1.mt-0.text-4xl.font-extrabold {

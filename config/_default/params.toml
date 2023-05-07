@@ -15,12 +15,12 @@ enableCodeCopy = true
 # mainSections = ["pages", "projects"]
 # robots = ""
 [header]
-  layout = "hamburger"
+  layout = "hybrid"
 
 [footer]
   showCopyright = false
   showThemeAttribution = false
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]

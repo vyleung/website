@@ -18,15 +18,15 @@ a, a:hover {
 a[href*="http"] {
     color: rgba(var(--color-primary-600), 1);
 }
+a[href*="http"]:before {
+    content: "↗ ";
+}
 a[aria-label="Email"], a[aria-label="Github"], a[aria-label="Twitter"], a[aria-label="Linkedin"] {
     color: currentColor !important;
 }
 a[aria-label="Email"]:hover,
 a[aria-label="Github"]:hover, a[aria-label="Twitter"]:hover, a[aria-label="Linkedin"]:hover {
     color: rgba(var(--color-primary-400),var(--tw-text-opacity)) !important;
-}
-a[href*="http"]:before {
-    content: "↗ ";
 }
 a[role="button"]:before, a[aria-label="Github"]:before, a[aria-label="Twitter"]:before, a[aria-label="Linkedin"]:before {
     content: "";
@@ -94,6 +94,7 @@ header.sm\:py-10 {
     background: inherit;
     padding-top: 0.75em;
     padding-bottom: 0.25em;
+    /* background-color: transparent; */
 }
 /* reduce font size for header h1 text */
 header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
@@ -160,9 +161,9 @@ details.mt-0 {
 .border-dotted {
     border: none;
 }
-/* make ToC links bolder: levels 1-4 */
+/* make ToC links bolder: levels 1-3 */
 #TableOfContents > ul > li > a, #TableOfContents > ul > li > ul > li > a, #TableOfContents > ul > li > ul > li > ul > li > a, #TableOfContents > ul > li > ul > li > ul > li > ul > li > a {
-    font-weight: 500;
+    /* font-weight: 500; */
     text-decoration: none;
 }
 /* details shortcode */
@@ -187,6 +188,9 @@ details > .markdown-inner {
     margin-bottom: 0;
 }
 /* scroll back to top button */
+.bottom-0.w-12 {
+    right: 0;
+}
 /* .bg-neutral\/50 {
     background-color: rgba(var(--color-neutral-200));
 } */
@@ -209,10 +213,36 @@ details > .markdown-inner {
     float: left;
     margin: 0 1em;
 }
-/* for logseq plugins */
-.logseq-plugins-row {
-    display: flex;
+/* responsive grid */
+@media (max-width: 992px) {
+    .logseq-plugins-row {
+        display: inline-grid;
+    }
+    .column.icon {
+        width: 30% !important;
+    }
+    .column.info {
+        width: 100% !important;
+        padding-bottom: 3em !important;
+    }
+    /* github downloads info for logseq plugins */
+    img[src*="shields.io"] {
+        margin-left: 0 !important;
+    }
 }
+
+@media (min-width: 1024px) {
+    .blender-row, .logseq-plugins-row {
+        display: flex;
+    }
+    .column.info {
+        height: 14em;
+    }
+}
+.logseq-plugin-link {
+    margin-bottom: 1em;
+}
+/* for logseq plugins */
 .logseq-plugins-row:first-child {
     padding-top: 1.5em;
 }
@@ -230,21 +260,13 @@ details > .markdown-inner {
 .blender-row {
     display: flex;
 }
-@media (max-width: 1024px) {
-    .blender-row, .logseq-plugins-row {
-        display: inline-block;
-    }
-    .column.info {
-        height: 14em;
-    }
-}
 /* for projects section */
 .blender {
     width: fit-content;
     display: flex;
 }
 /* github downloads info for logseq plugins */
-.my-0.rounded-md {
+img[src*="shields.io"] {
     margin-left: 1.25em;
 }
 /* tags (num) */
@@ -304,16 +326,15 @@ a[href*="categories"].px-1.border::before {
     width: 1.15em;
     height: 1.15em;
 }
-/* appearance switcher */
-#appearance-switcher {
-    margin-top: -0.65em;
-    color: var(--tw-prose-body);
-    display: none;
-}
+
 [dir="ltr"] .ltr\:mr-14 {
     margin-right: 0;
 }
 /* hamburger menu */
 ul.px-6.py-6 {
-    margin-top: 0.75em;
+    margin-top: -0.5em;
+}
+.fa-search {
+    width: 1em !important;
+    height: 1em !important;
 }

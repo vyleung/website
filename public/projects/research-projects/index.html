@@ -40,12 +40,12 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.c9688a630ec7f62ed438e186cd86ef4d026b069222c1dbed8f5fa57ac6473c52e7abcd3f8d624c0a294eb25cea6701d24b91554bea8c22a0bd924731e339767f.css"
-    integrity="sha512-yWiKYw7H9i7UOOGGzYbvTQJrBpIiwdvtj1&#43;lesZHPFLnq80/jWJMCilOslzqZwHSS5FVS&#43;qMIqC9kkcx4zl2fw=="
+    href="/css/main.bundle.min.4dd606e77216341a9a8abc8a7d517d23c07c0e2a3829a33204b0b792aa62ced863cf790dc1bea41dd82ee068e0d1810bbe8f4d4f2698945e92e2ba4ff3505fd2.css"
+    integrity="sha512-TdYG53IWNBqairyKfVF9I8B8Dio4KaMyBLC3kqpizthjz3kNwb6kHdgu4Gjg0YELvo9NTyaYlF6S4rpP81Bf0g=="
   />
   
   
-  <script type="text/javascript" src="/js/appearance.min.1e44157c1e51b46341ce2c94716dd3dd1ef30c28e7d1c9f3b9db80877bfe72bc66b00d8a662f317840016acbed93c5f18c3d9268c8b957021ee74d0b04adf6c5.js" integrity="sha512-HkQVfB5RtGNBziyUcW3T3R7zDCjn0cnzuduAh3v&#43;crxmsA2KZi8xeEABasvtk8XxjD2SaMi5VwIe500LBK32xQ=="></script>
+  <script type="text/javascript" src="/js/appearance.min.c6198a5ecbc6c7b35a8568d29315f50cf5d775d4461c515a476359767f1a745c245aa83fa96b0c7d83da976cf77481e1fc29537a2391a53ffe69a991638802e6.js" integrity="sha512-xhmKXsvGx7NahWjSkxX1DPXXddRGHFFaR2NZdn8adFwkWqg/qWsMfYPal2z3dIHh/ClTeiORpT/&#43;aamRY4gC5g=="></script>
   
     
     
@@ -58,7 +58,7 @@
   
   
     
-    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.6d78c827ca7bcbf72056dbf698bf9aeb759a08966686187deb23f5949f73eca5f39b461284900cdfc08e2976d99eb80a8663648de778ba2a83e633ae16dbfc25.js" integrity="sha512-bXjIJ8p7y/cgVtv2mL&#43;a63WaCJZmhhh96yP1lJ9z7KXzm0YShJAM38COKXbZnrgKhmNkjed4uiqD5jOuFtv8JQ==" data-copy="Copy" data-copied="Copied"></script>
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.fa85ce040f95efbd57e1bfca475667d5d74de355fe5ee8dcc4bbea5f9cf57b470b9b7aee793cd6b9cb6ab06a7dd5c73a417ff8acebcb5910343fd8a91ba8b274.js" integrity="sha512-&#43;oXOBA&#43;V771X4b/KR1Zn1ddN41X&#43;XujcxLvqX5z1e0cLm3rueTzWuctqsGp91cc6QX/4rOvLWRA0P9ipG6iydA==" data-copy="Copy" data-copied="Copied"></script>
   
   
   
@@ -166,6 +166,9 @@
     alt="Web Analytics"
     referrerPolicy="no-referrer-when-downgrade"></a></div>
 </noscript>
+
+
+<script async src="https://analytics.umami.is/script.js" data-website-id="bbd119f5-c2ca-4219-8330-ff35e283db29"></script>
   
 </head>
 <body
@@ -182,26 +185,25 @@
     </div>
     
     
-      <header class="py-6 font-semibold sm:py-10 text-neutral-900 dark:text-neutral print:hidden">
-  <nav class="flex justify-between">
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
     
-    <div class="z-40">
+    <div class="z-40 flex flex-row items-center">
       
-        <a
-          class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-          rel="me"
-          href="/"
-          >Vivian Leung</a
-        >
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Vivian Leung</a
+  >
+
       
 
     </div>
     
-    
-      <label id="menu-button" for="menu-controller" class="flex">
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
         <input type="checkbox" id="menu-controller" class="hidden" />
-        
-        
         <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
           
 
@@ -214,10 +216,10 @@
         </div>
         <div
           id="menu-wrapper"
-          class="fixed inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50"
+          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
         >
           <ul
-            class="flex flex-col w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl sm:px-14 md:px-24 lg:px-32 sm:py-10 sm:pt-10"
+            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 ltr:text-right rtl:text-left sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
           >
             <li class="mb-1">
               <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
@@ -233,33 +235,51 @@
             </li>
             
               
-                <li class="mb-1">
-                  <a
-                    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                    href="/"
-                    title="About"
-                    >  About</a
-                  >
-                </li>
-              
-                <li class="mb-1">
-                  <a
-                    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                    href="/projects/"
-                    title="Projects"
-                    >  Projects</a
-                  >
-                </li>
-              
-            
-            
-              <li>
-                <button
-                  id="search-button"
-                  class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-                  title="Search (/)"
-                >
+                <li class="group mb-1">
                   
+                    <a
+                      href="/"
+                      title="About"
+                      
+                      >
+                        <span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >About</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/projects/"
+                      title="Projects"
+                      
+                      >
+                        <span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Projects</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                <li class="group mb-1">
+                  
+                    
+                    
+                      <button
+                        id="search-button-1"
+                        title="Search (/)"
+                      >
+                        
+                          <span
+                            class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                          >
+                            
 
   <span class="relative inline-block align-text-bottom icon">
     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
@@ -267,12 +287,203 @@
   </span>
 
 
-                </button>
-              </li>
+                          </span>
+                        
+                          <span
+                            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                            ></span
+                          >
+                        
+                      </button>
+                    
+                  
+                </li>
+              
+                <li class="group mb-1">
+                  
+                    
+                    <button
+                      id="appearance-switcher-1"
+                      type="button"
+                      aria-label="appearance switcher"
+                    >
+                      <span
+                        class="group-dark:hover:text-primary-400 inline transition-colors group-hover:text-primary-600 dark:hidden"
+                        title="Switch to dark appearance"
+                      >
+                        
+                          
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                        
+                        
+                          <span
+                            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                            ></span
+                          >
+                        
+                      </span>
+                      <span
+                        class="group-dark:hover:text-primary-400 hidden transition-colors group-hover:text-primary-600 dark:inline"
+                        title="Switch to light appearance"
+                      >
+                        
+                          
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                        
+                        
+                          <span
+                            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                            ></span
+                          >
+                        
+                      </span>
+                    </button>
+                  
+                </li>
+              
+              
             
           </ul>
         </div>
       </label>
+      
+      <ul class="hidden list-none flex-row ltr:text-right rtl:text-left sm:flex">
+        
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/"
+                  title="About"
+                  
+                  >
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/projects/"
+                  title="Projects"
+                  
+                  >
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Projects</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                
+                
+                  <button
+                    id="search-button-2"
+                    title="Search (/)"
+                  >
+                    
+                      <span
+                        class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                      >
+                        
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+                      </span>
+                    
+                      <span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </button>
+                
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                
+                <button
+                  id="appearance-switcher-2"
+                  type="button"
+                  aria-label="appearance switcher"
+                >
+                  <span
+                    class="group-dark:hover:text-primary-400 inline transition-colors group-hover:text-primary-600 dark:hidden"
+                    title="Switch to dark appearance"
+                  >
+                    
+                      
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    
+                    
+                      <span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </span>
+                  <span
+                    class="group-dark:hover:text-primary-400 hidden transition-colors group-hover:text-primary-600 dark:inline"
+                    title="Switch to light appearance"
+                  >
+                    
+                      
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    
+                    
+                      <span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </span>
+                </button>
+              
+            </li>
+          
+          
+
+        
+      </ul>
     
   </nav>
 </header>
@@ -329,7 +540,11 @@
     
     <div class="min-w-0 min-h-0 max-w-prose">
       <h2 id="formal-research-projects" class="relative group">Formal Research Projects </h2><h3 id="sharkubb" class="relative group">SharKubb </h3><p><strong>Jun 2021 - Aug 2021</strong><br>
-Sharkubb is one study of a series of studies from the <a href="http://www.gopniklab.berkeley.edu/"   target="_blank">Cognitive Development Lab</a> at UC Berkeley investigating the developmental trajectory of 4-10 year olds&rsquo; decision-making during play and goal-oriented situations.</p>
+Sharkubb is one study of a series of studies from the <a
+  href="http://www.gopniklab.berkeley.edu/"
+  
+  target="_blank" rel="noreferrer noopener"
+>Cognitive Development Lab</a> at UC Berkeley investigating the developmental trajectory of 4-10 year olds&rsquo; decision-making during play and goal-oriented situations.</p>
 <details ><summary>About the study</summary>
     <div class="markdown-inner">
         <figure><img src="CDL/sharkubb.png"
@@ -375,14 +590,22 @@ Undergraduate Thesis at UC San Diego: &ldquo;Using Exploration to Support Childr
 <details ><summary>Results</summary>
     <div class="markdown-inner">
       <p>Children who learned by exploring tended to find more stars and display more advanced patterning strategies than children who learned by watching a demonstration.</p>
-<p><a href="https://github.com/vyleung/PiC/blob/main/pic_visualizations_VL.ipynb"   target="_blank">Data Visualizations using Python</a></p>
+<p><a
+  href="https://github.com/vyleung/PiC/blob/main/pic_visualizations_VL.ipynb"
+  
+  target="_blank" rel="noreferrer noopener"
+>Data Visualizations using Python</a></p>
 
     </div>
 </details>
 <br>
 <br>
 <h3 id="classinsight" class="relative group">ClassInSight </h3><p><strong>Jan 2018 – Jun 2021</strong><br>
-<a href="https://www.hcii.cmu.edu/news/2018/25m-grant-received-study-science-teaching"   target="_blank">ClassInSight</a> is a 5-year design-based research project involving Carnegie Melleon University, Penn State University, and UC San Diego that studies how secondary science teachers facilitate rich classroom discussions. I assisted with conducting on a systematic literature review, processing video, audio, and transcript data, and analyzing teachers&rsquo; baseline interviews. My work helped to inform the design of the ClassInSight web application that was developed for teachers to reflect on visualizations of their discussions.</p>
+<a
+  href="https://www.hcii.cmu.edu/news/2018/25m-grant-received-study-science-teaching"
+  
+  target="_blank" rel="noreferrer noopener"
+>ClassInSight</a> is a 5-year design-based research project involving Carnegie Melleon University, Penn State University, and UC San Diego that studies how secondary science teachers facilitate rich classroom discussions. I assisted with conducting on a systematic literature review, processing video, audio, and transcript data, and analyzing teachers&rsquo; baseline interviews. My work helped to inform the design of the ClassInSight web application that was developed for teachers to reflect on visualizations of their discussions.</p>
 <br>
 <br>
 <br>

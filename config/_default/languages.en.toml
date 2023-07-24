@@ -12,6 +12,7 @@ dateFormat = "January 02, 2006"
 
 [author]
   name = "Vivian Leung"
+  # headline = ""
   image = "../assets/profile/VYL.png"
   links = [
     { email = "mailto:vyleung@upenn.edu" },

@@ -11,15 +11,11 @@ body {
 /* for links */
 /* make underline thicker */
 a, a:hover {
-    text-underline-offset: 0.35em !important;
+    text-underline-offset: 0.3em !important;
     text-decoration-thickness: 2.5px !important;
 }
-/* add arrow for external links */
 a[href*="http"] {
     color: rgba(var(--color-primary-600), 1);
-}
-a[href*="http"]:before {
-    content: "↗ ";
 }
 a[aria-label="Email"], a[aria-label="Github"], a[aria-label="Twitter"], a[aria-label="Linkedin"] {
     color: currentColor !important;
@@ -43,6 +39,9 @@ section.max-w-full, div.max-w-prose {
     /* remove margin-top for other pages (e.g. research) */
     margin-top: 0;
 }
+footer.max-w-prose {
+    max-width: 100%;
+}
 /* change color of links for dark mode */
 .dark .prose :where(a):not(:where([class~="not-prose"] *)) {
     color: rgba(var(--color-primary-500), 1);
@@ -57,14 +56,14 @@ section.max-w-full, div.max-w-prose {
 }
 /* edit h1 font-size and margin-bottom */
 .prose :where(h1):not(:where([class~="not-prose"] *)) {
-    font-size: 1.85em;
+    font-size: 1.75em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    color: var(--tw-prose-links) !important;
 }
 .prose :where(h2):not(:where([class~="not-prose"] *)) {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    color: var(--tw-prose-links) !important;
 }
 .prose :where(h3):not(:where([class~="not-prose"] *)) {
     margin-top: 0.25em;
@@ -83,13 +82,13 @@ section.max-w-full, div.max-w-prose {
 }
 /* adds padding btw header and main content */
 #main-content {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 /* reduces margin for header and makes it sticky */
 header.sm\:py-10 {
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 25;
     width: 100%;
     background: inherit;
     padding-top: 0.75em;
@@ -101,6 +100,9 @@ header.mb-3 > h1.text-4xl.font-extrabold, h1.mt-0.text-4xl.font-extrabold {
     font-weight: 700;
     font-size: 1.75em;
 }
+header.mb-3 {
+    margin-bottom: 1em;
+}
 /* added margin for h1 */
 h1.mt-0.text-4xl.font-extrabold {
     margin-bottom: 0.5em;
@@ -109,23 +111,11 @@ h1.mt-0.text-4xl.font-extrabold {
 .flex.flex-wrap.text-neutral-400 > a {
     margin: 0 0.25em;
 }
-/* adds padding to link for headers */
-/* [dir="ltr"] .ltr\:-left-6 {
-    left: -2rem;
-} */
-/* centers footer text */
-footer {
+/* centers footer theme attribution text */
+footer.py-10 {
     display: flex;
-    /* justify-content: center;
-    padding: 0 !important;
-    margin-top: 5em;
-    margin-bottom: 1em; */
+    justify-content: center !important;
 }
-/* footer - copyright */
-/* .copyright {
-    opacity: 0.75;
-    font-size: 0.65em !important;
-} */
 /* when links are hovered, don't have a background */
 .prose :where(a):not(:where([class~="not-prose"] *)):hover {
     color: var(--tw-prose-links);
@@ -145,21 +135,22 @@ footer {
 details.mt-0 {
     margin-top: 1em;
 }
-@media (min-width: 1315px) and (max-width: 1350px) {
-    .py-2.border-dotted {
-        position: fixed;
-        width: 12em;
-    }
-}
-@media (min-width: 1350px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
     .py-2.border-dotted {
         position: fixed;
         width: 15em;
     }
 }
-/* remove dotted border for ToC */
+@media (min-width: 1600px) {
+    .py-2.border-dotted {
+        position: fixed;
+        width: 20em;
+        margin-left: 5em;
+    }
+}
+/* change border for ToC to solid */
 .border-dotted {
-    border: none;
+    border-style: solid;
 }
 /* make ToC links bolder: levels 1-3 */
 #TableOfContents > ul > li > a, #TableOfContents > ul > li > ul > li > a, #TableOfContents > ul > li > ul > li > ul > li > a, #TableOfContents > ul > li > ul > li > ul > li > ul > li > a {
@@ -191,9 +182,6 @@ details > .markdown-inner {
 .bottom-0.w-12 {
     right: 0;
 }
-/* .bg-neutral\/50 {
-    background-color: rgba(var(--color-neutral-200));
-} */
 /* for images */
 .prose :where(figure):not(:where([class~="not-prose"] *)), .prose :where(img):not(:where([class~="not-prose"] *)) {
     margin-bottom: 0.5em;
@@ -337,4 +325,44 @@ ul.px-6.py-6 {
 .fa-search {
     width: 1em !important;
     height: 1em !important;
+}
+
+/* tags for table of timeline of UCSD and Penn GSE courses */
+/* make table cells the same width */
+.prose :where(table):not(:where([class~=not-prose] *)) {
+    table-layout: fixed;
+}
+/* center header text */
+table thead {
+    text-align: center;
+}
+.gse, .ucsd {
+    font-weight: bold;
+}
+.gse-tag, .ucsd-tag {
+    border-radius: 2em;
+    padding: 0.25em 0.5em;
+}
+.gse-tag.core, .core, .ucsd-tag.psyc, .psyc {
+    color: FireBrick;
+}
+
+.gse-tag.core, .ucsd-tag.psyc {
+    background-color: rgba(178, 34, 34, 0.1);
+}
+
+.gse-tag.concentration, .concentration, .ucsd-tag.eds, .eds {
+    color: GoldenRod;
+}
+
+.gse-tag.concentration, .ucsd-tag.eds {
+    background-color: rgba(218, 165, 32, 0.1);
+}
+
+.gse-tag.elective, .elective, .ucsd-tag.erc, .erc {
+    color: ForestGreen;
+}
+
+.gse-tag.elective, .ucsd-tag.erc {
+    background-color: rgba(34, 139, 34, 0.1);
 }

@@ -19,7 +19,7 @@ enableCodeCopy = true
 
 [footer]
   showCopyright = false
-  showThemeAttribution = false
+  showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
@@ -28,18 +28,18 @@ enableCodeCopy = true
   showRecent = false
 
 [article]
-  showDate = true
-  showDateUpdated = true
+  showDate = false
+  showDateUpdated = false
   showAuthor = false
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
-  showHeadingAnchors = false
+  showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = false
   showTaxonomies = true
   showWordCount = false
@@ -49,7 +49,7 @@ enableCodeCopy = true
   showBreadcrumbs = true
   showSummary = true
   showTableOfContents = false
-  groupByYear = true
+  groupByYear = false
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]

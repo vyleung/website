@@ -11,9 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "About"
-  title = "About"
-  pageRef = "/"
+  name = "Academics"
+  title = "Academics"
+  pageRef = "/academics"
   weight = 1
 
 [[main]]
@@ -34,9 +34,3 @@
   weight = 99
   [main.params]
     action = "appearance"
-
-# [[main]]
-#   name = " &nbsp;Blog"
-#   title = "Blog"
-#   pageRef = "/blog"
-#   weight = 3

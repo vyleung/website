@@ -33,7 +33,7 @@
           </h2>
           <hr class="border-dotted border-neutral-400 w-36" />
         {{ end }}
-        {{ range .Pages }}
+        {{ range .Pages.ByWeight }}
           {{ partial "article-link.html" . }}
         {{ end }}
       {{ end }}

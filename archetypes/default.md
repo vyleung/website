@@ -1,10 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-# summary: ""
+summary: ""
 date: {{ .Date }}
-# lastmod: ""
-categories: [""]
 tags: [""]
-draft: true
+weight: -
 ---
 

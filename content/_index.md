@@ -9,6 +9,6 @@ Broadly, I'm interested in **enhancing the design and user experiences of educat
 
 <br>
 
-{{< button href="https://cutt.ly/vyleung-cv" target="_self" >}}
+{{< button href="docs/LeungVivian_CV.pdf" target="_self" >}}
 View CV
 {{< /button >}}

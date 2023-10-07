@@ -1,11 +1,11 @@
 # About
 Hello! I'm Vivian.
 
-I'm a master's student in the **Learning Sciences and Technologies** program at the University of Pennsylvania Graduate School of Education (Penn GSE).
+I recently graduated with a Master's in **Learning Sciences and Technologies** from the University of Pennsylvania Graduate School of Education (Penn GSE).
 
-Prior to graduate school, I studied at the University of California, San Diego (UCSD), where I earned a degree in **Psychology** (with a Specialization in Developmental Psychology) and a minor in **Education Studies**.
+Prior to graduate school, I earned a degree in **Psychology** (with a Specialization in Developmental Psychology) and a minor in **Education Studies** from the University of California, San Diego (UCSD).
 
-Broadly, I'm interested in **enhancing the design and user experiences of educational technologies.**
+Broadly, I'm interested in **designing meaningful, technology-enhanced learning experiences for students.**
 
 <br>
 

@@ -11,7 +11,7 @@ A selection of my course projects at UCSD.
 
 # EDS 130: Introduction to Academic Mentoring of Elementary School Students
 **Sep 2018 – Dec 2018**  
-In collaboration with my 2 sixth-grade mentees, I wrote two short stories and created illustrations for them. My male mentee's short story, called [Zoom](EDS130_story_zoom.pdf), is about friendship. My female mentee's short story, called [Evi and Her Journey](EDS130_story_evi.pdf), talks about following one's dreams.
+In collaboration with my 2 sixth-grade mentees, I wrote and illustrated two short stories. My male mentee's short story, called [Zoom](EDS130_story_zoom.pdf), is about friendship. My female mentee's short story, called [Evi and Her Journey](EDS130_story_evi.pdf), talks about following one's dreams.
 
 # EDS 140 and 141: Action Research in P-12 Schools
 **Jan 2019 – Jun 2019**  

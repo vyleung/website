@@ -1,9 +1,8 @@
 ---
 title: "Logseq plugins"
-categories: ["web development"]
+categories: ["Web Development"]
 weight: 1
 ---
-# About
 I develop plugins to enhance the overall user experience for [Logseq](https://logseq.com/), an open-source personal knowledge management system and note-taking application. 
 
 # All Plugins

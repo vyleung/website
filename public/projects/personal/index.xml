@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vyleung.github.io/projects/personal/logseq-plugins/</guid>
-      <description>About I develop plugins to enhance the overall user experience for Logseq, an open-source personal knowledge management system and note-taking application.</description>
+      <description>I develop plugins to enhance the overall user experience for Logseq, an open-source personal knowledge management system and note-taking application.</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vyleung.github.io/projects/personal/blender/</guid>
-      <description>About I modeled and animated 3D objects using Blender, an open-source 3D computer graphics software.</description>
+      <description>I modeled and animated 3D objects using Blender, an open-source 3D computer graphics software.</description>
     </item>
     
     <item>
@@ -30,7 +30,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vyleung.github.io/projects/personal/fpt/</guid>
-      <description>About I created a timer called FlowPomoTimer so that I can 1) keep track of how long I&amp;rsquo;ve been working on a task and 2) get notified at certain intervals so that I don&amp;rsquo;t lose track of time.</description>
+      <description>I created a timer called FlowPomoTimer so that I can 1) keep track of how long I&amp;rsquo;ve been working on a task and 2) get notified at certain intervals so that I don&amp;rsquo;t lose track of time.</description>
+    </item>
+    
+    <item>
+      <title>Mac Apps</title>
+      <link>https://vyleung.github.io/projects/personal/mac-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vyleung.github.io/projects/personal/mac-apps/</guid>
+      <description>As a long-time Mac user, I enjoy exploring apps that help me become more productive or bring value to my everyday life.</description>
     </item>
     
   </channel>

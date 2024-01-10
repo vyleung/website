@@ -2,7 +2,6 @@
 title: "3D Modeling and Animation"
 weight: 2
 ---
-# About
 I modeled and animated 3D objects using [Blender](https://www.blender.org/), an open-source 3D computer graphics software.
 {{< row class="blender-row" >}}
     {{< column >}}
